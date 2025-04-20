@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects 
     - name: zmk-keyboard-hillside38
       url-base: https://github.com/Louissundronning
   projects:
@@ -11,8 +11,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-keyboard-hillside38
-      remote: zmk-keyboard-hillside38
+    - name: zmk-keyboard-hillside48
+      remote: zmk-keyboard-hillside48
       revision: main
   self:
     path: config
